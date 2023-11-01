@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.calc {
+    display: block;
+    text-align: center;
+    margin: 20px 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    width: 600px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#value1, #value2 {
+    border-radius: 50%;
+    border: 2px solid green;
+    background-color: gray;
+    padding: 20px;
+    width: 30px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#operation {
+    width: 110px;
+    background-color: gray;
+    border: 2px solid green;
+    color: white;
+    text-align: center;
+}
+
+
+button {
+    width: 50px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 3px;
+}
+
+.visible {
+    padding: 10px;
+    background-color: gray;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid green;
+    border-radius: 3px;
+}
+
+.clear {
+    margin: 10px;
+    width: 70px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
